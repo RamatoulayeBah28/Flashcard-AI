@@ -42,14 +42,14 @@ export default function Home() {
   return (
     <Container maxWidth="lg">
       <Head>
-        <title>Flashcard SaaS</title>
+        <title>Flashcard AI</title>
         <meta name="description" content="Create flashcards from your text" />
       </Head>
 
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
-            Flashcard SaaS
+            Flashcard AI
           </Typography>
           <SignedOut>
             <Button color="inherit" href="/sign-in">
@@ -68,7 +68,7 @@ export default function Home() {
 
       <Box sx={{ textAlign: 'center', my: 4 }}>
         <Typography variant="h2" gutterBottom sx={{fontFamily: 'Georgia, serif',}}>
-          Welcome to Flashcard SaaS
+          Welcome to Flashcard AI
         </Typography>
         <Typography variant="h5" gutterBottom>
           {' '}

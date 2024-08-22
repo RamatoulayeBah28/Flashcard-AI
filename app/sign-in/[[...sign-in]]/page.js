@@ -13,7 +13,7 @@ export default function SignUpPage(){
                     flexGrow:1
                 }}
                 >
-                    Flashcard SaaS
+                    Flashcard AI
                 </Typography>
                 <Button color = "inherit">
                     <Link href="/sign-in" passHref sx={{ color: "white", textDecoration: 'none' }}>
